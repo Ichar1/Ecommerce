@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/msgName"
+        style="@style/EditText.Flat.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:hint="Name"
+        android:minHeight="@dimen/spacing_xmlarge" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/msgMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Message"
+        android:inputType="textMultiLine"
+        android:maxLines="12"
+        android:minLines="7"
+        android:textColor="@android:color/white"
+        style="@style/EditText.Flat.Grey" />
+
+
+    <EditText
+        android:id="@+id/msgPhone"
+        style="@style/EditText.Flat.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:hint="Phone Number"
+        android:minHeight="@dimen/spacing_xmlarge" />
+
+    <EditText
+        android:id="@+id/msgEmail"
+        style="@style/EditText.Flat.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:hint="Email"
+        android:minHeight="@dimen/spacing_xmlarge" />
+
+</LinearLayout>

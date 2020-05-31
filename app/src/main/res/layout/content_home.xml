@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomeActivity"
+    tools:showIn="@layout/app_bar_home"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/imgBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:text="All categories"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/pink"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/spacing_middle"
+                    android:layout_height="0dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/laptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/laptops" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/mobiles" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/shoes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/shoess" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/purse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_middle"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/purses_bags" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/tshirts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/sports" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/baby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/baby1" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/dress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/dress" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/suits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/sweather" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/game"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/gamecontroller" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/ic_tv" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/beauty" />
+
+                <android.support.design.widget.FloatingActionButton
+                android:id="@+id/glass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_large"
+                android:clickable="true"
+                android:tint="@android:color/white"
+                app:backgroundTint="@color/colorPrimary"
+                app:fabSize="normal"
+                app:rippleColor="@android:color/white"
+                app:srcCompat="@drawable/glasses" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/headphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/headphoness" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/watch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/watches" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/hat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:clickable="true"
+                    android:tint="@android:color/white"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:fabSize="normal"
+                    app:rippleColor="@android:color/white"
+                    app:srcCompat="@drawable/hats" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:text="New Deals"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/pink"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+

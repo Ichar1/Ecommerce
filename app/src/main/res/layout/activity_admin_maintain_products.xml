@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    tool:context=".Activity.Admin.AdminMaintainProductsActivity">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/RippleStyleBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/lyt_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/maintain_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop" />
+
+            <EditText
+                android:id="@+id/maintain_name"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:textColorHint="@android:color/black"
+                android:textSize="25sp"
+                android:background="@drawable/edit_rect"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/maintain_price"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:textColorHint="@android:color/black"
+                android:textSize="25sp"
+                android:background="@drawable/edit_rect"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/maintain_description"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Product Description"
+                android:textColorHint="@android:color/black"
+                android:textSize="25sp"
+                android:background="@drawable/edit_rect"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btn_save_changes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Save Changes"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_delete_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonstyle"
+                android:text="Delete Products"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</android.support.v7.widget.CardView>

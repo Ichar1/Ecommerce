@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="request_mpesaexpress">Request MPESAExpress</string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+        \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+    </string>
+
+    <string name="invoice_address">
+        Terry M Smith\n(904) 246-1297\n207 Cherry St, Neptune Beach, FL, 32266
+    </string>
+
+    <string name="about">
+        Looking for an online shopping site? You have landed on the right page. Explore Imall Kenya for all you needs ranging from fashion accessories to electronics such as televisions at the best prices online in Kenya. Discover top brands of fashion wears such as Zaful, Curren, Zecchino and more all availabe at the lowest prices online in Kenya. Dear ladies, keep slaying with amazing beauty accessories and products on Jumia. Keep your skin smooth and fresh with top beauty product brands such as LA Colors, LA Girl, Mary Kay, Maybelline and much more available on the number one online shopping mall in Kenya. Tech and gadget lovers are not left out. Enjoy maximum comfort in your home by placing order for quality home appliances from the best manufacturers such as Saturn, Ramtons, Von Hotpoint.
+    </string>
+
+    <string name="success">
+    You have Successfully purchased the item it will be delivered to you
+    </string>
+</resources>

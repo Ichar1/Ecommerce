@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355376534976",
+    "firebase_url": "https://ecommerce-fb5ac.firebaseio.com",
+    "project_id": "ecommerce-fb5ac",
+    "storage_bucket": "ecommerce-fb5ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355376534976:android:8d3570565cb306cc",
+        "android_client_info": {
+          "package_name": "com.example.charlo.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355376534976-ikhmudfqjdmjqubrg0lv0ut05q5oo1rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charlo.ecommerce",
+            "certificate_hash": "d5117cc3bd0cbf908992eb87b9fc6624b1f088f8"
+          }
+        },
+        {
+          "client_id": "355376534976-9e60d20afmtq6p6jcs9ebv14lia57t7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhGBUU4FFsOxOEqSQzbN8hZWKRbVEqHn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355376534976-9e60d20afmtq6p6jcs9ebv14lia57t7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

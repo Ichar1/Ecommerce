@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.OrderReceived_Activity"
+    android:id="@+id/rootSnack">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmation message"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/_22sdp"/>
+
+        <EditText
+            android:id="@+id/order_con"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:text="I HAVE RECEIVED MY ORDER"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:layout_gravity="center_horizontal"
+            android:editable="false"
+            android:layout_marginBottom="@dimen/_1sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/_22sdp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_gravity="center_horizontal"
+        android:editable="false"/>
+
+    <View
+        android:layout_width="@dimen/spacing_middle"
+        android:layout_height="0dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complain"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="@dimen/_22sdp"/>
+
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/complain"
+        style="@style/EditText.Flat.Grey"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:gravity="top"
+        android:hint="Plaese enter your complement on our services"
+        android:inputType="textMultiLine"
+        android:maxLines="12"
+        android:minLines="7"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_22sdp"/>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_blue_button"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>

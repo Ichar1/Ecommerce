@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT DETAILS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_40"
+            app:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/ship_name"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:hint="Enter your Name"
+            android:minHeight="@dimen/spacing_xmlarge" />
+
+        <EditText
+            android:id="@+id/ship_email"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:inputType="textWebEmailAddress"
+            android:minHeight="@dimen/spacing_xmlarge"
+            android:hint="Email(laura.michelle@mail.com)" />
+
+        <EditText
+            android:id="@+id/ship_phone"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:inputType="number"
+            android:hint="Phone(0719490801)"
+            android:minHeight="@dimen/spacing_xmlarge"
+            />
+
+        <TextView
+            android:id="@+id/ship_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="SHIPPING ADDRESS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_40"
+            app:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/address"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:hint="Enter your Address"
+            android:minHeight="@dimen/spacing_xmlarge"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/country"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:hint="Enter your County"
+                android:drawableEnd="@drawable/ic_arrow_back"
+                android:drawableRight="@drawable/ic_arrow_back"
+                android:minHeight="@dimen/spacing_xmlarge" />
+
+            <View
+                android:layout_width="@dimen/spacing_middle"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/zip"
+                style="@style/EditText.Flat.Grey"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_round_bg_outline"
+                android:hint="Enter your ZIP Code"
+                android:inputType="number"
+                android:minHeight="@dimen/spacing_xmlarge" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/city"
+            style="@style/EditText.Flat.Grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:drawableEnd="@drawable/ic_arrow_back"
+            android:drawableRight="@drawable/ic_arrow_back"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:hint="Enter your Country"
+            android:minHeight="@dimen/spacing_xmlarge" />
+
+
+
+        <Button
+            android:id="@+id/btncontact"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_blue_button"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
